@@ -1,0 +1,110 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    margin: 0;
+    padding: 0;
+    background-color: cornflowerblue;
+}
+
+.container {
+
+    display: flex;
+    justify-content: center;
+}
+
+img {
+
+    height: auto;
+    max-width: 100%;
+
+}
+
+.center {
+
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    
+}
+
+.cadastro {
+
+    margin-left: 300px;
+
+}
+
+input {
+
+    margin-bottom: 10px;
+}
+
+fieldset {
+
+    background-color: cornflowerblue;
+    width: 500px;
+    
+}
+
+input {
+
+    margin-top: 7px;
+   
+}
+
+input:hover {
+
+    background-color: aliceblue;
+    
+}
+
+input:focus, input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+} 
+
+textarea:focus, input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+} 
+
+legend {
+
+    color: white;
+    align-items: center;
+}
+
+a {
+
+    text-decoration: none;
+    color: blue;
+    margin-left: 200px;
+}
+
+a:hover {
+
+    color: darkblue;
+}
+
+header h1 {
+
+    color: black;
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+
+header h3 {
+
+    color:black;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+
+}

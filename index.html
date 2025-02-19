@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width,user-scalable=0"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <link rel="stylesheet" type="text/css" href="Formulario/assets/css/style.css"/>
+
+        <title>Cadastro de Dados</title>
+    
+    </head>
+
+    <body>
+        <div class="container">
+            <header>
+                <div class="title_text">
+                    <h1>Cadastro para Desenvolvedores</h1>
+                </div>    
+                <div class="subtitle_text">
+                    <h3>Preencha os campos abaixo</h3>
+                </div>
+            </header>
+        </div>
+
+        <section>
+            <div class="container center">
+                <div class="image">
+                    <img src="Formulario/assets/images/cadastro.png" alt=">">
+                </div>
+    
+                <div class="cadastro">
+                    <form action="Formulario/assets/js/blablabla.js" method="post">
+                        <fieldset class="set">
+                            <legend>Dados para serem preenchidos</legend>
+                                <label>Nome Completo: <br/>
+                                    <input type="text" required>
+                                </label><br/>
+                                <label>Email: <br/>
+                                    <input type="text" required>
+                                </label><br/>
+                                <label>Senha: <br/>
+                                    <input type="password" required>
+                                </label><br/>
+                                <label>Número de Telefone:<br/>
+                                    <input type="tel" required>
+                                </label><br/>
+                                <div class="radio">
+                                    <label>Senioridade: <br/>
+                                        <input type="radio" name="Senioridade" value="S" required>Junior <BR>
+                                        <input type="radio" name="Senioridade" value="S" required>Pleno <BR>
+                                        <input type="radio" name="Senioridade" value="S" required>Senior
+                                    </label><br/>
+                                </div>
+                                <div class="radio">
+                                    <label>Qual Aplicação Voce Desenvolve: <br/>
+                                        <input type="radio" name="Aplicação" value="F" required>Front-End <br>
+                                        <input type="radio" name="Aplicação" value="F" required>Back-End <br>
+                                        <input type="radio" name="Aplicação" value="F" required>Full-Stack
+                                    </label><br/>
+                                </div><br>
+                                <div class="radio">
+                                    <label>Qual Aplicação Voce Desenvolve: <br/>
+                                        <input type="radio" name="Linguagem" value="L" required>JavaScript <br>
+                                        <input type="radio" name="Linguagem" value="L" required>Python <br>
+                                        <input type="radio" name="Linguagem" value="L" required>PHP <br>
+                                        <input type="radio" name="Linguagem" value="L" required>Outros
+                                    </label><br/>
+                                </div><br>
+                                <label>
+                                    <p>Coloque qual outra linguagem voce tem experiencia:</p> <br>
+                                    <textarea name="Descrição" id="desc" style="width: 500px; height: 100px; resize: none;" required placeholder="Coloque um pouco sua experiencia com outras linguagens e se voce ja trabalhou na area..."></textarea> <br> <br>
+                                </label>
+                                <label>
+                                    <input type="submit" value="Fazer Cadastro">
+                                </label>
+                                <a href="">Já possui uma conta ?</a>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </section>
+        </main>
+    </body>
+
+</html>
